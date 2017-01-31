@@ -15,7 +15,7 @@ TEST(vectorTest, elementsCanBeIteratedByUsingIterators)
     numbers.push_back(33);
 
     int sum = 0;
-    for(vector<int>::iterator itr = numbers.begin();itr<numbers.end();itr++)
+    for(vector<int>::iterator itr = numbers.begin();itr!=numbers.end();itr++)
         sum+= *itr;
 
     CHECK_EQUAL(66, sum);
