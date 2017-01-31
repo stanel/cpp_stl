@@ -1,5 +1,6 @@
 #include "CppUTest/CommandLineTestRunner.h"
 #include "vectorTest.cpp"
+#include "setTest.cpp"
 
 int main(int ac, char **av)
 {
